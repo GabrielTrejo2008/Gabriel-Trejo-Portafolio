@@ -1,7 +1,7 @@
 const projects = [
   {
-    year: "YEAR 1",
-    title: "First-Year Project",
+    year: "First year",
+    title: "TransporTech",
     description:
       "A project developed during my first year in ¡Supérate!, where I practiced the fundamentals of technology, planning, and teamwork.",
     role:
@@ -12,8 +12,8 @@ const projects = [
     evidence: "",
   },
   {
-    year: "YEAR 2",
-    title: "Second-Year Project",
+    year: "Second year",
+    title: "nouva",
     description:
       "A collaborative project focused on applying technical skills to design and develop a solution to a specific problem.",
     role:
@@ -24,8 +24,8 @@ const projects = [
     evidence: "",
   },
   {
-    year: "YEAR 3",
-    title: "Third-Year Project",
+    year: "Third year",
+    title: "Routify",
     description:
       "A project that demonstrates the knowledge and skills I developed throughout my three-year learning journey.",
     role:

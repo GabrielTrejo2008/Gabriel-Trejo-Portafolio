@@ -1,20 +1,21 @@
+
 const certificates = [
   {
-    title: "Course Certificate 01",
-    provider: "Course Provider",
-    description: "Describe the first completed course.",
-    file: "/certificates/course-1.pdf",
+    title: "SQL",
+    provider: "midudev",
+    description: "Curso de SQL completado.",
+    file: "https://www.aprendesql.dev/certificado/23c27aa0-1729-4003-83f4-267152d3b43b",
   },
   {
     title: "Course Certificate 02",
     provider: "Course Provider",
-    description: "Describe the second completed course.",
+    description: "Descripción del segundo curso.",
     file: "/certificates/course-2.pdf",
   },
   {
     title: "Course Certificate 03",
     provider: "Course Provider",
-    description: "Describe the third completed course.",
+    description: "Descripción del tercer curso.",
     file: "/certificates/course-3.pdf",
   },
 ];
@@ -24,7 +25,11 @@ export default function Certificates() {
     <section className="section" id="certificates">
       <div className="section-heading">
         <span className="eyebrow">CONTINUOUS LEARNING</span>
-        <h2>Courses & <span className="gradient-text">Certificates</span></h2>
+
+        <h2>
+          Courses & <span className="gradient-text">Certificates</span>
+        </h2>
+
         <p>
           Certifications that represent my learning and professional growth.
         </p>
@@ -32,8 +37,11 @@ export default function Certificates() {
 
       <div className="certificates-grid">
         {certificates.map((certificate) => (
-          <article className="certificate-card" key={certificate.file}>
-            <div className="certificate-icon">✦</div>
+          <article
+            className="certificate-card"
+            key={certificate.title}
+          >
+            
 
             <span className="certificate-label">
               COMPLETION CERTIFICATE
@@ -47,7 +55,7 @@ export default function Certificates() {
               className="button button-secondary"
               href={certificate.file}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               View Certificate ↗
             </a>
