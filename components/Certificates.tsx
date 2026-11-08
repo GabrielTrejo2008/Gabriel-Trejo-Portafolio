@@ -16,7 +16,7 @@ const certificates = [
     title: "Course Certificate 03",
     provider: "Course Provider",
     description: "Descripción del tercer curso.",
-    file: "/certificates/course-3.pdf",
+    file: "https://capacitateparaelempleo.org/cursos/view/89",
   },
 ];
 
