@@ -42,7 +42,7 @@ export default function About() {
           </article>
 
           <article className="stat-card">
-            <strong>3+</strong>
+            <strong>4+</strong>
             <span>Courses</span>
           </article>
 

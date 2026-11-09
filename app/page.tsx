@@ -3,7 +3,6 @@ import About from "../components/About";
 import TechStack from "../components/TechStack";
 import Projects from "../components/Projects";
 import Certificates from "../components/Certificates";
-import Contact from "../components/Contact";
 
 export default function HomePage() {
   return (
@@ -13,7 +12,6 @@ export default function HomePage() {
       <TechStack />
       <Projects />
       <Certificates />
-      <Contact />
     </main>
   );
 }
