@@ -1,36 +1,36 @@
 const projects = [
   {
     year: "First year",
-    title: "TransporTech",
+    title: <a href="">Transportech</a>,
     description:
       "A project developed during my first year in ¡Supérate!, where I practiced the fundamentals of technology, planning, and teamwork.",
     role:
       "My role was to contribute to the assigned tasks, collaborate with my teammates, and apply the knowledge acquired during the program.",
-    technologies: ["HTML", "CSS", "Teamwork"],
+    technologies: ["Figma, PowerApps"],
     github: "",
     demo: "",
     evidence: "",
   },
   {
     year: "Second year",
-    title: "nouva",
+    title: <a href="">noUva</a>,
     description:
       "A collaborative project focused on applying technical skills to design and develop a solution to a specific problem.",
     role:
       "I contributed to the development process by completing my assigned responsibilities, solving problems, and coordinating with the team.",
-    technologies: ["JavaScript", "Design", "GitHub"],
+    technologies: ["JavaScript", "Python", "Php", "Tailwind css", "HTML", "MySql"],
     github: "",
     demo: "",
     evidence: "",
   },
   {
     year: "Third year",
-    title: "Routify",
+    title: <a href="">Routify</a>,
     description:
       "A project that demonstrates the knowledge and skills I developed throughout my three-year learning journey.",
     role:
       "My contributions included participating in project planning, developing assigned features, and presenting our work and results.",
-    technologies: ["React", "UI/UX", "Teamwork"],
+    technologies: ["React", "Node.js", "TypeScript", "Tailwind css", "MySql", "Prisma"],
     github: "",
     demo: "",
     evidence: "",
