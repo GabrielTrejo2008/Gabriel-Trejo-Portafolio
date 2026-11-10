@@ -27,9 +27,6 @@ const projects = [
     role:
       "My contributions included participating in project planning, developing assigned features, and presenting our work and results.",
     technologies: ["React", "Node.js", "TypeScript", "Tailwind css", "MySql", "Prisma"],
-    github: "",
-    demo: "",
-    evidence: "",
   },
 ];
 
