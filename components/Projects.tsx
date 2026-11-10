@@ -7,9 +7,7 @@ const projects = [
     role:
       "My role was to contribute to the assigned tasks, collaborate with my teammates, and apply the knowledge acquired during the program.",
     technologies: ["Figma, PowerApps"],
-    github: "",
-    demo: "",
-    evidence: "",
+  
   },
   {
     year: "Second year",
@@ -19,9 +17,7 @@ const projects = [
     role:
       "I contributed to the development process by completing my assigned responsibilities, solving problems, and coordinating with the team.",
     technologies: ["JavaScript", "Python", "Php", "Tailwind css", "HTML", "MySql"],
-    github: "",
-    demo: "",
-    evidence: "",
+  
   },
   {
     year: "Third year",
@@ -92,12 +88,6 @@ export default function Projects() {
             <div className="project-role">
               <h4>My Role & Contributions</h4>
               <p>{project.role}</p>
-            </div>
-
-            <div className="project-links">
-              <EvidenceLink href={project.github} label="GitHub" />
-              <EvidenceLink href={project.demo} label="Live Demo" />
-              <EvidenceLink href={project.evidence} label="Evidence" />
             </div>
           </article>
         ))}
