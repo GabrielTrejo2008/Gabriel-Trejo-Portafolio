@@ -57,7 +57,7 @@ export default function Hero() {
             Explore My Projects ↗
           </a>
 
-          <a className="button button-secondary" href="#contact">
+          <a className="button button-secondary" href="mailto:angelgabrieltrejomartinez@gmail.com">
             Contact Me
           </a>
         </div>
