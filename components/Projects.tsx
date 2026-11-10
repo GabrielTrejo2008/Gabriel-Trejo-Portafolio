@@ -13,7 +13,7 @@ const projects = [
   },
   {
     year: "Second year",
-    title: <a href="">noUva</a>,
+    title: <a href="https://expo-2025-no-uva.vercel.app/">noUva</a>,
     description:
       "A collaborative project focused on applying technical skills to design and develop a solution to a specific problem.",
     role:
