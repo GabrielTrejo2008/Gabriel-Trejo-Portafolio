@@ -108,18 +108,6 @@ export default function Hero() {
           </ul>
         </div>
       </div>
-
-      <div className="hero-image">
-        <img
-          src="/images/profile.jpg"
-          alt="Portrait of Gabriel Trejo"
-        />
-
-        <div className="image-caption">
-          <span className="status-dot" />
-          <span>Always learning, always growing</span>
-        </div>
-      </div>
     </section>
   );
 }
